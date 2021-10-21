@@ -1,7 +1,7 @@
 const { config } = require("vuepress-theme-hope");
 
 module.exports = config({
-  title: "Theme Demo",
+  title: "Theme DHH",
   description: "A demo for vuepress-theme-hope",
 
   dest: "./dist",
@@ -29,17 +29,17 @@ module.exports = config({
       lang: "en-US",
     },
     "/zh/": {
-      title: "Theme Demo",
-      description: "vuepress-theme-hope 的 demo",
+      title: "DH Demo",
+      description: "DH Demo descrição",
     },
   },
 
   themeConfig: {
     logo: "/logo.svg",
-    hostname: "https://vuepress-theme-hope-demo.mrhope.site",
+    hostname: "https://engdhtestefinal.vercel.app",
 
-    author: "Mr.Hope",
-    repo: "https://github.com/vuepress-theme-hope/vuepress-theme-hope",
+    author: "Eng",
+    repo: "https://github.com/mystrader/engdhteste",
 
     nav: [
       { text: "Blog Home", link: "/", icon: "home" },
@@ -125,11 +125,11 @@ module.exports = config({
     },
 
     copyright: {
-      status: "global",
+      status: "Eng",
     },
 
     git: {
-      timezone: "Asia/Shanghai",
+      timezone: "America/Sao_Paulo",
     },
 
     mdEnhance: {
